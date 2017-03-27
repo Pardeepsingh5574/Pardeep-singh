@@ -1,0 +1,476 @@
+frame
+
+
+<frameset><frame src=""> creates a frame
+<frameset> set of frames
+<frameset> nesting example
+<frameset frameborder="0"> frame border
+<frameset border=""> frame border thickness
+<frameset bordercolor=""> frame border color
+<frame src=""> defines a frame
+<frame src="" name=""> naming the frame
+<frame src="" noresize> disallows resizing of the frame
+<frame src="" scrolling=""> controls the scroll
+<frame src="" marginwidth="" marginheight=""> margins in the frame
+<a href="" target=""> the target frame of the link
+<noframes> alternative content for non-frames users
+Examples of frames layout examples of frames
+
+
+
+
+
+
+
+
+
+Inline frame
+
+
+<iframe src=""> creates an iframe
+<iframe src=""> defines an iframe
+<iframe src="" width="" height=""> width and height of the iframe
+<iframe src="" name=""> naming the iframe
+<iframe src="" frameborder="0"> iframe border
+<iframe src="" scrolling=""> controls the scroll
+<iframe src="" marginwidth="" marginheight=""> margins in the iframe
+<iframe src="" allowtransparency="true"> transparent iframe
+<iframe src="" align=""> iframe alignment
+<iframe src="" vspace="" hspace=""> the space of the iframe
+<br clear=""> stopping text wrapping
+<a href="" target=""> the target frame of the link
+
+
+
+
+
+
+
+Border, Width, Height
+
+border: ***; iframe border
+width: ***; height: ***; width and height of an iframe
+max-width: ***; min-width: ***; maximum and minimum width of an iframe
+max-height: ***; min-height: ***; maximum and minimum height of an iframe
+
+
+
+
+
+Alignment, Float ...
+
+
+vertical-align: ***; iframe vertical alignment
+float: ***; creates a floating iframe
+margin: ***; iframe margin
+clear: ***; clears float
+
+
+
+
+
+Iframe Inside
+
+
+background-color: transparent; transparent iframe
+margin: ***; margins inside the iframe
+scrollbar-***-color: ***; iframe scrollbar color
+
+
+
+
+
+Form Field
+
+width: ***; height: ***; width and height of a form field
+max-width: ***; min-width: ***; maximum and minimum width of a form field
+background-color: ***; form field background color
+border: ***; form field border
+scrollbar-***-color: ***; textarea scrollbar color
+line-height: ***; line height of text in a textarea
+
+
+
+
+Input Text
+
+font-size: ***; font size of text in a form field
+color: ***; color of text in a form field
+
+
+
+
+examples frame page
+
+</head>
+<frameset cols="150,*">
+<frame src="example_a.html">
+<frame src="example_d.html">
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset cols="150,*,150">
+<frame src="example_a.html">
+<frame src="example_d.html">
+<frame src="example_b.html">
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset rows="100,*">
+<frame src="example_a.html">
+<frame src="example_d.html">
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset rows="*,100">
+<frame src="example_d.html">
+<frame src="example_a.html">
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset rows="100,*,100">
+<frame src="example_a.html">
+<frame src="example_d.html">
+<frame src="example_b.html">
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset rows="100,*">
+<frame src="example_a.html">
+<frameset cols="150,*">
+<frame src="example_b.html">
+<frame src="example_d.html">
+</frameset>
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset rows="100,*">
+<frame src="example_a.html">
+<frameset cols="*,150">
+<frame src="example_d.html">
+<frame src="example_b.html">
+</frameset>
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset cols="150,*">
+<frame src="example_a.html">
+<frameset rows="100,*">
+<frame src="example_b.html">
+<frame src="example_d.html">
+</frameset>
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset cols="150,*">
+<frame src="example_a.html">
+<frameset rows="100,*,100">
+<frame src="example_b.html">
+<frame src="example_d.html">
+<frame src="example_c.html">
+</frameset>
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset cols="*,150">
+<frameset rows="100,*">
+<frame src="example_b.html">
+<frame src="example_d.html">
+</frameset>
+<frame src="example_a.html">
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+
+<html>
+<head>
+<title>TAG index</title>
+</head>
+<frameset cols="*,150">
+<frameset rows="100,*,100">
+<frame src="example_b.html">
+<frame src="example_d.html">
+<frame src="example_c.html">
+</frameset>
+<frame src="example_a.html">
+<noframes>
+<body>
+<p>Alternate content</p>
+</body>
+</noframes>
+</frameset>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+frameset( example )
+
+
+
+<html> 
+<frameset cols="*,*,*,*"> 
+<frame src="../file_path/frame_1.html"> 
+<frame src="frame_2.html"> 
+<frame src="frame_3.html"> 
+<frame src="frame_4.html"> 
+</frameset> </html> 
+
+
+
+
+
+
+<frameset rows="*,*,*,*"> 
+<frame src="frame_1.html"> 
+<frame src="frame_2.html"> 
+<frame src="frame_3.html"> 
+<frame src="frame_4.html"> 
+</frameset> </html>
+
+
+
+
+
+<frameset cols="*,*,*"> 
+<frameset rows="*,*"> 
+<frame src="frame_1.html"> 
+<frame src="frame_2.html"> 
+</frameset> 
+<frame src="frame_3.html"> 
+<frame src="frame_4.html"> 
+</frameset> 
+
+
+
+
+
+<frameset cols="*,*"> 
+<frame src="frame_1.html"> 
+<frameset rows="*,*"> 
+<frame src="frame_2.html"> 
+<frameset cols="*,*"> 
+<frame src="frame_3.html"> 
+<frame src="frame_4.html"> 
+</frameset> </frameset> </frameset> 
+
+
+
+
+
+<frameset rows="*,*" cols="*,*"> 
+<frame src="frame_1.html"> 
+<frame src="frame_2.html"> 
+<frame src="frame_3.html"> 
+<frame src="frame_4.html"> 
+</frameset> 
+
+
+
+
+
+
+
+
+
+How to Style Frames
+
+
+
+<html> 
+<head> 
+<style> 
+body {background: gray;} 
+h1 {color: blue;} 
+p {margin: 20px;} 
+</style> 
+</head> 
+<body> 
+<h1>Frame 1</h1> 
+<p>Contents of Frame 1</p> 
+</body> 
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+Styling & Formatting the Frameset
+
+
+
+
+<frameset rows="150px,*"> 
+<frame noresize src="frame_1.html"> 
+<frameset cols="20%,*,20%"> 
+<frame src="frame_2.html"> 
+<frame src="frame_3.html"> 
+<frame src="frame_4.html"> 
+</frameset> </frameset> 
+
+
+
+
+
+
+<frameset rows="150px,*"> 
+<frame noresize src="frame_1.html" marginheight="15"> 
+<frameset cols="20%,*,20%"> 
+<frame src="frame_2.html" frameborder="0"> 
+<frame src="frame_3.html" frameborder="0"> 
+<frame src="frame_4.html" frameborder="0"> 
+</frameset> </frameset> 
+
+
+
+
+
+
+
+
